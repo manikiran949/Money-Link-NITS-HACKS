@@ -4,7 +4,7 @@ Welcome to **MoneyLink** – Your gateway to **secure, transparent**, and **comm
 
 ## Features ✨
 
-### 🔒 **User Authentication**
+### 🔒 **User Authentication (Under Progress)**
 - **Aadhaar Integration**: Users can log in using their **Aadhaar** ID for a quick, verified registration. Blockchain ensures that the identity is verified in a secure, tamper-proof manner, ensuring user safety and privacy.
 - **Mobile Wallet Integration**: Users can link their **mobile wallets** (e.g., Paytm, Google Pay) for hassle-free transactions, making loan disbursements and repayments swift and secure.
 - This feature supports **compliance with KYC norms**, ensuring **legal** and **safe onboarding** of users.
