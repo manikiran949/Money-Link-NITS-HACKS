@@ -11,14 +11,21 @@ class TransactionPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Transactions')),
-      body: Padding(
+      appBar: AppBar(
+          title: const Text('Transactions'),
+          backgroundColor: Colors.white,
+      ),
+      body: Container(
+        color:  Colors.white, // Set background color here
         padding: const EdgeInsets.all(10.0),
         child: ListView.builder(
           itemCount: transactions.length,
           itemBuilder: (context, index) {
             final transaction = transactions[index];
+            final cardColor = index % 2 == 0 ? Colors.grey[50] : Colors.grey[200]; // Alternate colors
+
             return Card(
+              color: cardColor,
               elevation: 3,
               margin: const EdgeInsets.symmetric(vertical: 8),
               shape: RoundedRectangleBorder(
@@ -30,25 +37,22 @@ class TransactionPage extends StatelessWidget {
                   horizontal: 15,
                 ),
                 leading: CircleAvatar(
-                  backgroundColor:
-                  transaction['isSent'] ? Colors.red : Colors.green,
+                  backgroundColor: transaction['isSent'] ? Colors.red : Colors.green,
                   child: Icon(
-                    transaction['isSent']
-                        ? Icons.arrow_upward
-                        : Icons.arrow_downward,
+                    transaction['isSent'] ? Icons.arrow_upward : Icons.arrow_downward,
                     color: Colors.white,
                   ),
                 ),
                 title: Text(
                   transaction['name'],
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                  style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
                 ),
                 subtitle: Text(
                   transaction['date'],
                   style: TextStyle(color: Colors.grey[600]),
                 ),
                 trailing: Text(
-                  '${transaction['isSent'] ? '-' : '+'}\$${transaction['amount'].toStringAsFixed(2)}',
+                  '${transaction['isSent'] ? '-' : '+'}\₹${transaction['amount'].toStringAsFixed(2)}',
                   style: TextStyle(
                     color: transaction['isSent'] ? Colors.red : Colors.green,
                     fontWeight: FontWeight.bold,
