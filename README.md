@@ -4,11 +4,6 @@ Welcome to **MoneyLink** – Your gateway to **secure, transparent**, and **comm
 
 ## Features ✨
 
-### 🔒 **User Authentication (Under Progress)**
-- **Aadhaar Integration**: Users can log in using their **Aadhaar** ID for a quick, verified registration. Blockchain ensures that the identity is verified in a secure, tamper-proof manner, ensuring user safety and privacy.
-- **Mobile Wallet Integration**: Users can link their **mobile wallets** (e.g., Paytm, Google Pay) for hassle-free transactions, making loan disbursements and repayments swift and secure.
-- This feature supports **compliance with KYC norms**, ensuring **legal** and **safe onboarding** of users.
-
 ### 📱 **User-Friendly Interface**
 - **Transaction Page**: A **well-organized** page where users can easily view all their previous transactions, including pending loans, repayments, and history.
 - **Dashboard Page**: The central hub that displays your **credit score** 🔢, **loan status**, and **financial summary**. Color-coded indicators are used to display vital information clearly, such as **available balance**, **pending loans**, and **credit score**.
@@ -30,6 +25,11 @@ Welcome to **MoneyLink** – Your gateway to **secure, transparent**, and **comm
 - **Automated Community-Based Lending**: Using **Smart Contracts**, the platform allows users to create **community-based lending agreements** without needing to trust each other directly. For example, **Self-Help Groups (SHGs)** or **peer lenders** can establish terms that automatically execute upon meeting conditions (such as repayment milestones).
 - **Transparency & Accountability**: The use of smart contracts ensures that both lenders and borrowers can see **exact terms and conditions** clearly, and the contracts will automatically **enforce payments** based on agreed criteria, increasing trust and accountability.
 - **Instant Loan Disbursements & Repayments**: Once conditions (such as loan repayment) are met, the smart contracts execute, ensuring the lender is paid back in real-time. This makes the entire lending process **automatic**, **fast**, and **without manual intervention**.
+
+  ### 🔒 **User Authentication (Under Progress)**
+- **Aadhaar Integration**: Users can log in using their **Aadhaar** ID for a quick, verified registration. Blockchain ensures that the identity is verified in a secure, tamper-proof manner, ensuring user safety and privacy.
+- **Mobile Wallet Integration**: Users can link their **mobile wallets** (e.g., Paytm, Google Pay) for hassle-free transactions, making loan disbursements and repayments swift and secure.
+- This feature supports **compliance with KYC norms**, ensuring **legal** and **safe onboarding** of users.
 
 ### 🏦 **Blockchain-Backed Credit Scoring**
 - **Decentralized Credit Scoring**: Traditional credit scoring methods can be opaque and unreliable. MoneyLink provides a **decentralized credit scoring** system that evaluates users based on their **transaction history** and **repayment behavior**.
