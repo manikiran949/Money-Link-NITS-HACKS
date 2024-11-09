@@ -13,7 +13,7 @@ Welcome to **MoneyLink** – Your gateway to **secure, transparent**, and **comm
 
 ### 🤖 **Smart Chatbot**
 - **AI-driven Assistant**: The chatbot helps guide users through the app, assisting with actions such as making transactions, checking the credit score, and finding local SHGs. 
-- **Transaction Prediction**: The chatbot also predicts the likelihood of a **successful transaction** by analyzing past behavior, repayment patterns, and user profiles.
+- **Transaction Prediction (Models Trained yet need to be integrated with App)**: The chatbot also predicts the likelihood of a **successful transaction** by analyzing past behavior, repayment patterns, and user profiles.
 - The chatbot gives users insights into **loan repayment probability** and can help them understand their **chances of being accepted for a loan** based on their history.
 
 ### ⚙️ **Blockchain-Powered Transactions**
