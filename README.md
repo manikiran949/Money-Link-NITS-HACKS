@@ -40,10 +40,15 @@ Welcome to **MoneyLink** – Your gateway to **secure, transparent**, and **comm
 
 ## 🛠️ **Technologies Used** 💻
 
-- **Flutter**: For building a cross-platform app for both iOS and Android.
-- **Blockchain**: For secure, decentralized transaction management and credit scoring.
-- **Web3**: Enabling **peer-to-peer transactions** without intermediaries.
-- **AI**: For training the **chatbot** and **predicting transaction success**.
+- **Flutter**: For building a cross-platform app with a responsive UI for both iOS and Android.
+- **Blockchain**: For secure, decentralized transaction management, identity verification, and credit scoring, ensuring all transactions are tamper-proof and transparent.
+- **Web3**: Facilitates **peer-to-peer transactions** without intermediaries, enabling secure, low-cost financial interactions.
+- **AI/ML**: Used for training the **chatbot** and **predicting transaction success** rates. Machine Learning algorithms analyze user patterns, repayment histories, and credit behavior to provide insights.
+- **Python**: Used in the backend to implement machine learning models and facilitate data processing.
+- **Node.js**: Powers the backend server, handling API requests, and enabling fast, scalable, and asynchronous interactions with the frontend.
+- **Flask**: Utilized as a lightweight web framework to support RESTful APIs for machine learning models and connect with the Flutter frontend.
+- **Smart Contracts** (Solidity): Written to manage lending agreements autonomously on the blockchain, enabling transparent, automated transactions.
+
 
 ---
 
